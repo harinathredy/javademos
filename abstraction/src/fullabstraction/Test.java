@@ -11,7 +11,8 @@ public class Test {
 //		toyota.go();
 //		toyota.stop();
 		
-		car car = new Toyota();
+		cd
+		ar car = new Toyota();
 		car.go();
 		car.stop();
 	}
