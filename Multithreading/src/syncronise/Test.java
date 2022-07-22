@@ -5,7 +5,8 @@ public class Test {
 		String tname = Thread.currentThread().getName();
 		System.out.println(tname+": Main method begin..");
 		DisplayMessage dm =new DisplayMessage();
-		Thread t1 = new Thread(new Worker(dm,"ravi"));
+		Worker w = new Worker(dm,"ravi");
+		Thread t1 = new Thread(w);
 		t1.setName("t1");
 		
 		Thread t2 = new Thread(new Worker(dm,"ramu"));
