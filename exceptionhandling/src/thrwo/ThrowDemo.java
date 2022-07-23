@@ -7,7 +7,7 @@ public class ThrowDemo {
 		try {
 			int withDrawAmount = 500;
 			System.out.println("Withdrawing: " + withDrawAmount);
-			obj.withdrawFromATM(withDrawAmount, 4538);
+			//obj.withdrawFromATM(withDrawAmount, 4538);
 			System.out.println("Amount Withdrawn");
 		} catch (RuntimeException ex) {
 			System.out.println("Exception Occurred. " + ex.getMessage());
